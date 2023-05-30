@@ -1,0 +1,43 @@
+/* reset css */
+*{
+   padding: 0;
+   margin: 0;
+}
+
+input{
+   width: 150px !important;
+   height: 150px !important;
+   font-size: 50pt !important;
+   text-align: center !important;
+}
+
+/* Tira o botão de mais e menos do input tipo number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+input[type="number"] {
+   -moz-appearance: none;
+}
+
+.time{
+   color: #500dee;
+   text-align: center;
+   width: 20rem;
+   height: 20rem;
+   border-radius: 10rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto !important;
+}
+
+h2{
+   font-size: 90pt;
+}
+
+#timer{
+   display: none !important;
+}
